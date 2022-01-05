@@ -7,7 +7,10 @@
 $number = 5;
 switch ($number) 
 {
-	case '$number<=1':
+	case '$number==0':
+    	echo "0";
+        break;
+	case '$number==1':
     	echo "1";
         break;
   	default:
